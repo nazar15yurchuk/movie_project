@@ -1,0 +1,51 @@
+.pagination_top{
+    background: white;
+    width: 362px;
+    border-radius: 50px;
+    border: solid 1px aqua;
+    margin: 10px 0 0 38%
+}
+
+.pagination_bottom{
+    background: white;
+    width: 362px;
+    border-radius: 50px;
+    border: solid 1px aqua;
+    margin: 15px 0 25px 38%
+}
+
+.genresByOne{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: solid 2px aqua;
+    border-bottom: solid 2px aqua;
+    margin-top: 10px;
+}
+
+.closeGenres + .genresByOne{
+    display: none;
+}
+
+
+.genresByOne a[class='active']{
+    color: cornflowerblue;
+    font-size: larger;
+    text-decoration: none;
+}
+
+.nameGenre{
+    margin: 5px;
+}
+
+a:any-link {
+    color: indianred;
+    text-decoration: none;
+}
+
+.moviesByOne{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-evenly
+}

@@ -1,0 +1,25 @@
+.User{
+    background: aqua;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    border-radius: 30px;
+    border: 1px solid white ;
+}
+
+.fullName{
+    display: none;
+    margin: 8px 0 0 10px;
+    font-size: 20px;
+}
+
+.User:hover + .fullName{
+    display: block;
+    color: #242424;
+}
+.aboutUser{
+    display: flex;
+}

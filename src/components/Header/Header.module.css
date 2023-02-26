@@ -1,0 +1,42 @@
+.Header{
+    display: flex;
+    height: 60px;
+    background: cadetblue;
+
+    align-items: center;
+}
+
+.searchInput{
+    height: 30px;
+    width: 410px;
+}
+
+input{
+    display: flex;
+    margin: 0 260px 0 140px;
+}
+
+html{
+    --background: #ffffff
+}
+
+html[data-theme="dark"]{
+    --background: #242424;
+    color: white;
+
+}
+
+html{
+    background-color: var(--background);
+}
+
+.theme{
+    margin-right: 100px;
+}
+
+.logo{
+    font-family: "Niagara Engraved";
+    font-size: 50px;
+    margin: 0 140px 0 100px;
+    color: greenyellow;
+}

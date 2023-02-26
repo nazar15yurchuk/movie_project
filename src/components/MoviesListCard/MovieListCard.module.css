@@ -1,0 +1,21 @@
+.movies{
+    width: 285px;
+    height: 500px;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.titleDiv{
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.images{
+    border-radius: 10px;
+    width: 270px;
+    height: 390px;
+    margin: 7px 0 0 7px;
+}
